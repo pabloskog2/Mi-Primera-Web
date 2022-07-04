@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+.logotipo {
+  margin-left: 50px;
+  width: 50px; }
+
+.bg-boton {
+  background-color: rgba(95, 218, 156, 0.878); }
+
+.bg-footer {
+  background-color: #61615e; }
+
+.text_order {
+  color: #242424;
+  text-justify: center;
+  text-align: center; }
+
+.boton {
+  border-style: solid black 3px; }
+
+article {
+  padding-top: 10px; }
+  article .imagenes {
+    margin: 5px;
+    border: solid #8e8e8e 3px;
+    transition: all .5s; }
+  article:hover .imagenes {
+    transform: scale(1.05); }
+
+h1 {
+  padding-top: 15px;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif; }
+
+h2 {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  padding-top: 15px; }
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #242424;
+  font-size: 1em;
+  padding: 10px 30px; }
+
+.botonera {
+  background-color: #b4b4b4be;
+  align-items: center; }

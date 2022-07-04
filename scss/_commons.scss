@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.logotipo{
+    margin-left: 50px;
+    width: 50px;
+}
+
+.bg-boton{
+    background-color: rgba(95, 218, 156, 0.878);
+}
+
+
+.bg-footer{
+    background-color: rgb(97, 97, 94);
+}
+
+
+.text_order{
+    color:$black;
+    text-justify: center;
+    text-align: center;
+}
+
+.boton{
+    border-style: solid black 3px;
+}
+
+
+article{
+    padding-top: 10px;
+    .imagenes{
+        margin: 5px;
+        border: solid rgb(142, 142, 142) 3px;
+        transition: all .5s;
+    }
+    &:hover .imagenes{
+        transform: scale(1.05);
+    }
+}
+
+
+
+h1{
+    padding-top: 15px;
+    font-size: $textLg;
+    font-family: $mainFont;
+}
+
+h2{
+	font-size: $textMd;
+    font-family: $mainFont;
+    padding-top: 15px;
+}
+
+
+p{
+	font-family: $secondaryFont;
+	color:$black;
+	font-size: $textSm;
+	padding: 10px 30px;
+}
+
