@@ -89,6 +89,12 @@ p {
 .boton {
   border-style: solid black 3px; }
 
+.gale {
+  margin-top: 20px;
+  transition: all .5s; }
+  .gale:hover .gale {
+    transform: scale(1.1); }
+
 .botonera {
-  background-color: #c0c0c0be;
+  background-color: #dadadabe;
   align-items: center; }

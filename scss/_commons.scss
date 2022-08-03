@@ -104,3 +104,11 @@ p{
 .boton{
     border-style: solid black 3px;
 }
+
+.gale{
+    margin-top: 20px;
+    transition: all .5s;
+    &:hover .gale{
+        transform: scale(1.1);
+    }
+}
